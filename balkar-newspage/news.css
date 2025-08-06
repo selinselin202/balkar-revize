@@ -1,0 +1,347 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #021c2d;
+  color: white;
+  padding: 15px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.search-icon {
+  width: 16px;
+  height: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.date-box {
+    background-color: #002b49;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.date-text div:first-child {
+    font-size: 24px;
+}
+
+.date-text div:last-child {
+    font-size: 16px;
+}
+
+.meta-text {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.tags .badge {
+    margin: 2px;
+    font-size: 12px;
+}
+
+
+
+.date-box {
+    background-color: #002f4b;
+    font-weight: bold;
+}
+
+.date-box .day {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.date-box .month {
+    font-size: 14px;
+    line-height: 1;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+.btn-primary {
+    background-color: #00325c;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #001f3a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ header {
+      background:  #021a2b ;
+      background-size: 40px 40px;
+    }
+
+    .navbar-brand {
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .navbar-brand span {
+      display: block;
+      font-size: 12px;
+      letter-spacing: 3px;
+    }
+
+    .nav-link {
+      color: white !important;
+      font-weight: 500;
+    }
+
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    .search-icon {
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    .navbar-toggler {
+      border: none;
+    }
+
+    .navbar-toggler-icon {
+      filter: invert(1);
+    }
+
+.map-container iframe {
+      width: 100%;
+      height: 200px;
+      border: 0;
+    }
+    .social-icons i {
+      margin-right: 10px;
+      color: #0d6efd;
+    }
+    .form-control {
+      border-radius: 0;
+    }
+    .btn-send {
+      background-color: #003366;
+      color: white;
+      border-radius: 20px;
+      padding: 6px 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #012031;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .footer .logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .footer p {
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 8px;
+  }
+
+  .footer a {
+    color: #cccccc;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 20px 0;
+  }
+
+  .footer .stat {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .footer .stat strong {
+    display: block;
+    font-size: 22px;
+    margin-bottom: 4px;
+  }
+
+  .back-to-top {
+    width: 36px;
+    height: 36px;
+    background-color: #555;
+    color: white;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 3px;
+  }
+
+  .back-to-top:hover {
+    background-color: #777;
+  }
+
+
+
+
+    .pagination {
+  justify-content: flex-start; /* Sola hizalama */
+  margin-top: 50px;
+}
+
+.page-item .page-link {
+  color: #333;
+  background-color: #f0f0f0;
+  border: none;
+  margin: 0 2px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 38px;
+  padding: 0;
+}
+
+.page-item.active .page-link {
+  background-color: #004065; /* koyu mavi */
+  color: white;
+}
+
+.page-item.disabled .page-link {
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
